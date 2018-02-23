@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev": "ng serve",
-    "postinstall": "npx ng build --prod"
+    "preinstall": "npm install -g @angular/cli",
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -51,5 +52,9 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.x"
   }
 }
