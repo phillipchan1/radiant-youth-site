@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev": "ng serve",
-    "postinstall": "ng build --prod"
+    "postinstall": "npx ng build --prod"
   },
   "private": true,
   "dependencies": {
