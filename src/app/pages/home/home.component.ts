@@ -31,15 +31,15 @@ export class HomeComponent implements OnInit {
       href: "contact",
       scroll: true,
       text: "contact"
+    },
+    {
+      href: "/worship",
+      scroll: false,
+      text: "Worship"
     }
-    // {
-    //   href: "/worship",
-    //   scroll: false,
-    //   text: "Worship"
-    // }
   ];
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }

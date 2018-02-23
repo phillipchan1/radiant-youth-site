@@ -1,10 +1,12 @@
 <section class="align-center block-container justify-center text-center" id="hero">
-	<video preload="preload" id="video" autoplay="autoplay" loop="loop">
-		<source src="{{videoBackgroundUrl}}" type="video/mp4" />
-	</video>
+	<div *ngIf="videoBackgroundUrl">
+		<video preload="preload" id="video" autoplay="autoplay" loop="loop">
+			<source src="{{videoBackgroundUrl}}" type="video/mp4" />
+		</video>
+	</div>
 	<div class="align-center block-container hero-content justify-center row">
 		<div class="hero-container">
-			<img src="{{imageUrl}}" />
+			<img src="{{imageUrl}}">
 			<h1 [innerHTML]="title"></h1>
 			{{content}}
 		</div>
