@@ -19,9 +19,22 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/scripts/jquery-1.11.3.min.js",
+        "assets/scripts/jquery-migrate-1.2.1.min.js",
+        "assets/scripts/jquery.flexslider-min.js",
+        "assets/scripts/jquery.waypoints.min.js",
+        "assets/scripts/jquery.validate.min.js",
+        "assets/scripts/jquery.fittext.js",
+        "assets/scripts/jquery.placeholder.min.js",
+        "assets/scripts/jquery.magnific-popup.min.js",
+        "assets/scripts/moment.js",
+        "assets/scripts/fullcalendar.min.js",
+        "assets/scripts/gcal.js",
+        "assets/scripts/main.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -54,7 +67,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }

@@ -1,0 +1,7 @@
+<section *ngFor="let set of faqContent">
+	<header>
+		{{set.question}}
+	</header>
+	<div [innerHTML] = "set.answer">
+	</div>
+</section>
