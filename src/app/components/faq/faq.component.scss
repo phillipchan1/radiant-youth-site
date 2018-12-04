@@ -1,7 +1,15 @@
 section {
   margin-bottom: 2em;
+  color: #000;
 
   header {
     // color: #CCC;
+    font-weight: bold;
+  }
+
+  a,
+  a:visited {
+    color: #fdc501 !important;
+    font-weight: bold;
   }
 }

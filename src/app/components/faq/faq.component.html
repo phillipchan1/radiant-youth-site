@@ -1,7 +1,7 @@
-<section *ngFor="let set of faqContent">
-	<header>
-		{{set.question}}
-	</header>
-	<div [innerHTML] = "set.answer">
-	</div>
+<section
+  *ngFor="let set of faqContent"
+  class="faq-section {{theme === 'light' ? 'light' : ''}}"
+>
+  <header>{{ set.question }}</header>
+  <div [innerHTML]="set.answer"></div>
 </section>

@@ -34,7 +34,7 @@ export class RetreatComponent implements OnInit {
 
   theme = 'light';
 
-  faqContent = [
+  faqContentOne = [
     {
       question: `Who/What Is Radiant?`,
       answer: `Radiant Youth is the Youth Ministry of <a href="http://epicentrechurch.org">Epicentre Church</a>, Pasadena, CA`
@@ -50,10 +50,13 @@ export class RetreatComponent implements OnInit {
     {
       question: `What will accommodations be like?`,
       answer: `There will be 12 students per same-gender cabin with 2 youth leaders overseeing each cabin`
-    },
+    }
+  ];
+
+  faqContentTwo = [
     {
       question: `How will students be transported?`,
-      answer: `A reputable charter bus company (<a href="https://www.ridemcoach.com/" target="_blank">M COach</a>) will be taking students to and from the camp.`
+      answer: `A reputable charter bus company (<a href="https://www.ridemcoach.com/" target="_blank">M Coach</a>) will be taking students to and from the camp.`
     },
     {
       question: `What should we pack?`,

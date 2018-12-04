@@ -1,16 +1,15 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-	selector: 'faq',
-	templateUrl: './faq.component.html',
-	styleUrls: ['./faq.component.scss']
+  selector: 'faq',
+  templateUrl: './faq.component.html',
+  styleUrls: ['./faq.component.scss']
 })
 export class FaqComponent implements OnInit {
-	@Input() faqContent;
+  @Input() faqContent;
+  @Input() theme;
 
-	constructor() { }
+  constructor() {}
 
-	ngOnInit() {
-	}
-
+  ngOnInit() {}
 }

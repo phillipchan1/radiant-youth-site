@@ -49,42 +49,35 @@
 
   <div class="section-padding">
     <div class="row">
-      <p>
-        Drop off is on Friday February 16 at 5:00PM (buses will depart at
-        6:00PM) <br />
-        Drop off location is at Epicentre Church 1539 E.Howard St. Pasadena, CA
-        91104 <br />
-        *dinner will not be provided Friday evening. please arrange to eat
-        before drop-off or bring your own sack dinner on the bus.
-      </p>
+      <!--
+          <p>
+            Drop off is on Friday February 15 at 4:30PM (buses will depart at
+            6:00PM) <br />
+            Drop off location is at Epicentre Church 1539 E.Howard St. Pasadena, CA
+            91104 <br />
+            *dinner will not be provided Friday evening. please arrange to eat
+            before drop-off or bring your own sack dinner on the bus.
+          </p>
 
-      <a
-        href="https://epicentrepasadena.ccbchurch.com/goto/forms/312/responses/new"
-        class="button"
-        >Register Now!</a
-      >
-    </div>
-    2
-  </div>
+           <p>
+          Pick up is on Monday February 19 at 3:30PM* and will be at the same
+          location as drop off: <br />Epicentre Church 1539 E. Howard <br />
+          St. Pasadena, CA 91104 *we will be texting parents with an updated ETA
+          when we are on the bus coming back.
+        </p>
+      -->
 
-  <div class="section-padding">
-    <div class="row">
-      <h1>Retreaters! Drop off & Pick up Information</h1>
-      <p>
-        Drop off is on Friday February 16 at 5:00PM (buses will depart at
-        6:00PM) <br />
-        Drop off location is at Epicentre Church 1539 E.Howard St. Pasadena, CA
-        91104 <br />
-        *dinner will not be provided Friday evening. please arrange to eat
-        before drop-off or bring your own sack dinner on the bus.
-      </p>
-
-      <p>
-        Pick up is on Monday February 19 at 3:30PM* and will be at the same
-        location as drop off: <br />Epicentre Church 1539 E. Howard <br />
-        St. Pasadena, CA 91104 *we will be texting parents with an updated ETA
-        when we are on the bus coming back.
-      </p>
+      <div style="text-align: center;" class="section-padding">
+        <p>Registration opens 12/14/18</p>
+        <p>(A button will magically appear here on that date)</p>
+        <!--
+          <a
+            href="https://epicentrepasadena.ccbchurch.com/goto/forms/312/responses/new"
+            class="button"
+            >Register Now!</a
+          >
+        -->
+      </div>
     </div>
   </div>
 
@@ -99,7 +92,12 @@
     </div>
     <!-- end section-head -->
     <div class="row mobile-no-padding ">
-      <div class="twelve columns "><faq [faqContent]="faqContent"></faq></div>
+      <div class="six columns ">
+        <faq [faqContent]="faqContentOne" [theme]="theme"></faq>
+      </div>
+      <div class="six columns ">
+        <faq [faqContent]="faqContentTwo" [theme]="theme"></faq>
+      </div>
     </div>
     <!-- end row -->
   </div>
