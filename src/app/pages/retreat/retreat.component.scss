@@ -1,0 +1,77 @@
+.retreat-page {
+  // typography
+  background: #fff;
+  color: #000;
+  font-family: 'Nunito';
+
+  a {
+    color: #fdc501;
+    font-weight: bold;
+  }
+
+  em,
+  strong,
+  b {
+    font-family: 'Nunito';
+  }
+
+  strong,
+  b {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  .large {
+    font-size: 1.5em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Nunito';
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  .surprise-text {
+    font-family: 'Corben';
+    display: block;
+    color: #000;
+  }
+
+  .bg-section {
+    h2 {
+      position: relative;
+      display: inline-block;
+      z-index: 2;
+      padding: 0.5em;
+      margin: 0.5em 0 0.25em 0;
+
+      &:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        transform: skew(-10deg, 1deg);
+        left: 0;
+        z-index: -1;
+      }
+    }
+
+    &.bg-section-yellow h2:after {
+      background: #72c7bd;
+    }
+
+    &.bg-section-gray h2:after {
+      background: #fbe735;
+    }
+  }
+
+  .bg-section-yellow {
+  }
+}
