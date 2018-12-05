@@ -7,9 +7,6 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./retreat.component.scss']
 })
 export class RetreatComponent implements OnInit {
-  starsLoopUrl: string =
-    'assets/videos/Simple Stars - HD Video Background Loop (1).mp4';
-  intoNightLogoUrl: string = 'assets/images/retreat/retreat-logo-light.png';
   heroTitle: string = 'Registration is closed! See you guys at retreat!!';
   heroText: string = '"...and they will shine like stars in the universe..."';
   retreatVideoUrl: string = 'https://www.youtube.com/embed/tpmpY__38WI';
@@ -69,7 +66,7 @@ export class RetreatComponent implements OnInit {
   ];
 
   constructor(private titleService: Title) {
-    titleService.setTitle('Into the Night - Radiant Retreat 2018');
+    titleService.setTitle('Wild Pursuit - Radiant Retreat 2019');
   }
 
   ngOnInit() {}
