@@ -36,6 +36,11 @@ export class HomeComponent implements OnInit {
       href: "/worship",
       scroll: false,
       text: "Worship"
+    },
+    {
+      href: "/retreat",
+      scroll: false,
+      text: "Retreat"
     }
   ];
 
