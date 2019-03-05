@@ -1,5 +1,5 @@
 import { Title } from '@angular/platform-browser'
-import { Component } from '@angular/core'
+import { Component, OnInit } from '@angular/core'
 
 @Component({
     selector: 'app-retreat',
